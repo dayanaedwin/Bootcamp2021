@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 1440px;
+    height: 960px;
+    background-color: #EFF0F2;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 250px 82px 250px;
+}
+
+.heading{
+    font-size: 46px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 552px 358px;
+    grid-template-rows: 337px 350px;
+    column-gap: 30px;
+    row-gap: 30px;
+}    
+
+.card1{
+    color: #111529;
+    background-color: white;    
+    border-radius: 24px;
+    padding: 30px 30px 37.13px 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card1 h1{
+    font-size: 36px;
+    transform: translateY(-15px);
+}
+
+#card1-p1{    
+    font-size: 18px;
+    padding-right: 309px;
+}
+
+#card1-p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+.card2{
+    color: #111529;
+    background-color: white;
+    border-radius: 24px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 34px;
+    padding-left: 64px;
+    padding-right: 63px;
+}
+
+#card2-p1{    
+    font-size: 18px;
+}
+
+#card2-p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.card2 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.card3{
+    background-color: white;
+    border-radius: 24px;
+    align-items: center;
+    height: 170px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.month-digit{
+    border-radius: 12px;
+    width: 133px;
+    height: 144px;
+    background-color: #111529;
+    color: white;
+    text-align: center;
+    transform: translate(24px, -45px);
+}
+
+.month-digit h1{
+    font-family: #111529;
+    font-size: 86px;
+}
+
+.month-digit h4{
+    transform: translateY(-65px);
+}
+
+.month-text{
+    color: #111529;
+    transform: translate(195px, -165px);
+    font-family: 'Roboto', sans-serif;
+}
+
+#card3-p1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#card3-p2{
+    font-size: 14px;
+    width: 298px;
+}
+
+#card3-2{
+    transform: translateY(-200px);
+}
+
+#month7{
+    background-color: #F75726;
+}
+
+.card4{
+    background-color: white;
+    border-radius: 24px;
+    align-items: center;
+    background-color: #111529;
+    padding-bottom: 25.63px;
+}
+
+.card4 h1{
+    color: #F75725;
+    font-size: 66px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#card4-p1{
+    color: #F75725;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transform: translateY(-45px);
+}
+
+#card4-p2{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 85px;
+    padding-right: 85px;
+    transform: translateY(-37px);
+}
+
+#pattern{
+    padding-left: 61px;
+    transform: translateY(-19px);
+}
