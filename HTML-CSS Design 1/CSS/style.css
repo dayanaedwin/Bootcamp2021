@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    margin: auto;
+    height: 736pt;
+    width: 414pt;
+    padding-top: 20pt;
+    padding-left: 27pt;
+    padding-top: 37pt;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+}
+
+p{
+    color: #224D4F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 46pt;
+    padding-right: 51pt;
+    padding-top: 20pt;
+    
+}
+
+#sofa{
+    width: 284pt;
+    height: 313pt;
+}
+
+button{
+    position: absolute;
+    background-color: #224D4F;
+    color: white;
+    width: 201pt;
+    height: 72pt;
+    border: 0pt;
+    font-style: 'Roboto, Medium', sans-serif;
+    font-size: 21pt;
+    transform: translate(-57%, 320%);
+    
+}

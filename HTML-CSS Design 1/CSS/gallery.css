@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    position: relative;
+    height: 736pt;
+    width: 414pt;
+    padding-left: 27pt;
+    padding-top: 37px;   
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+#logo{
+    padding-bottom: 30pt;
+}
+
+.col img{
+    width: 172pt;
+    height: 202pt;transition: all 0.3s ease 0s;
+    border-radius: 10pt;
+}
+
+.col{
+    position: relative;
+    float: left;
+    padding-right: 20pt;
+    padding-bottom: 19pt;
+    position: relative;
+    
+} 
+
+.col .overlay{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    height: 43pt;
+    background: rgb(34, 77, 79);
+    background: rgba(34, 77, 79, 0.9);
+    color: white;
+    padding: 14pt 11pt 13pt;
+    width: 172pt;
+    bottom: 22pt;
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    margin: 0pt -50px;
+    position: relative;
+    background-color: black;
+    padding-left: 0pt;
+    color: white;
+    width: 425pt;
+    height: 50pt;
+    bottom: 85pt;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.95);
+    border: none;
+}
+
